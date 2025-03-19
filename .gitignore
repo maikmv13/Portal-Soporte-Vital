@@ -1,0 +1,23 @@
+# Dependencias
+node_modules/
+
+# Archivos de construcción
+.DS_Store
+.thumbs.db
+.cache
+.temp
+.idea
+.vscode
+*.log
+
+# Archivos de entorno
+.env
+.env.local
+.env.*.local
+
+# Cache de VitePress
+docs/.vitepress/cache/
+docs/.vitepress/.temp/
+
+# Excluir archivos de build (comentar si necesitas incluir estos en git)
+# docs/.vitepress/dist/ 

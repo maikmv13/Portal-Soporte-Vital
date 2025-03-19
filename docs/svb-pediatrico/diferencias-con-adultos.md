@@ -275,29 +275,31 @@
 }
 </style>
 
-<script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const tabs = document.querySelectorAll('.tab-button');
-    
-    tabs.forEach(tab => {
-      tab.addEventListener('click', () => {
-        // Desactivar todos los tabs
-        document.querySelectorAll('.tab-button').forEach(t => {
-          t.classList.remove('active');
-        });
-        
-        // Ocultar todos los contenidos
-        document.querySelectorAll('.tab-content').forEach(c => {
-          c.classList.remove('active');
-        });
-        
-        // Activar el tab seleccionado
-        tab.classList.add('active');
-        
-        // Mostrar el contenido correspondiente
-        const tabId = tab.getAttribute('data-tab');
-        document.getElementById(tabId).classList.add('active');
+<script setup>
+import { onMounted } from 'vue'
+
+onMounted(() => {
+  const tabs = document.querySelectorAll('.tab-button');
+  
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      // Desactivar todos los tabs
+      document.querySelectorAll('.tab-button').forEach(t => {
+        t.classList.remove('active');
       });
+      
+      // Ocultar todos los contenidos
+      document.querySelectorAll('.tab-content').forEach(c => {
+        c.classList.remove('active');
+      });
+      
+      // Activar el tab seleccionado
+      tab.classList.add('active');
+      
+      // Mostrar el contenido correspondiente
+      const tabId = tab.getAttribute('data-tab');
+      document.getElementById(tabId).classList.add('active');
     });
   });
+});
 </script>

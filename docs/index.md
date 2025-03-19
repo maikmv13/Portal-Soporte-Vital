@@ -8,19 +8,8 @@ hero:
     - theme: brand
       text: 🎯 Comenzar el Curso
       link: /guia
-    - theme: alt
-      text: 📚 Ver Contenido
-      link: /introduccion/definicion
+      
 ---
-
-# 🏥 Bienvenido a la Guía Definitiva de Soporte Vital
-
-<div class="custom-card welcome-card">
-  <h3>💡 ¿Por qué esta guía?</h3>
-  <p>La formación en técnicas de soporte vital es fundamental para salvar vidas. Este curso te proporcionará los conocimientos y habilidades necesarios siguiendo las últimas recomendaciones del European Resuscitation Council (ERC).</p>
-</div>
-
-## ⭐ Características Principales
 
 <div class="grid-container">
   <div class="grid-item">
@@ -39,6 +28,11 @@ hero:
     <h4>🔄 Actualizado 2024</h4>
     <p>Últimas guías y protocolos internacionales</p>
   </div>
+</div>
+
+<div class="custom-card welcome-card">
+  <h3>💡 ¿Por qué esta guía?</h3>
+  <p>La formación en técnicas de soporte vital es fundamental para salvar vidas. Este curso te proporcionará los conocimientos y habilidades necesarios siguiendo las últimas recomendaciones del European Resuscitation Council (ERC).</p>
 </div>
 
 ## 📚 Contenido del Curso
@@ -65,29 +59,32 @@ hero:
   </div>
 </div>
 
-## 🎯 ¿A quién va dirigido?
+<div class="two-column-container">
+  <div class="column">
+    <div class="custom-container info">
+      <p class="custom-container-title">👥 PERFILES RECOMENDADOS</p>
+      <p>Cualquiera está preparado!</p>
+      <ul>
+        <li>🏥 <strong>Profesionales sanitarios:</strong> Actualización de conocimientos</li>
+        <li>🚑 <strong>Personal de emergencias:</strong> Formación específica en SVB/SVA</li>
+        <li>👥 <strong>Primeros intervinientes:</strong> Capacitación en técnicas básicas</li>
+        <li>🌟 <strong>Población general:</strong> Interés en técnicas de soporte vital</li>
+      </ul>
+    </div>
+  </div>
 
-<div class="custom-container info">
-  <p class="custom-container-title">👥 PERFILES RECOMENDADOS</p>
-  <ul>
-    <li>🏥 <strong>Profesionales sanitarios:</strong> Actualización de conocimientos</li>
-    <li>🚑 <strong>Personal de emergencias:</strong> Formación específica en SVB/SVA</li>
-    <li>👥 <strong>Primeros intervinientes:</strong> Capacitación en técnicas básicas</li>
-    <li>🌟 <strong>Población general:</strong> Interés en técnicas de soporte vital</li>
-  </ul>
-</div>
-
-## ⚠️ Información Importante
-
-<div class="custom-container warning">
-  <p class="custom-container-title">📢 ANTES DE COMENZAR</p>
-  <p>Para aprovechar al máximo este curso:</p>
-  <ul>
-    <li>✅ Sigue el orden recomendado de los módulos</li>
-    <li>📝 Realiza todas las actividades prácticas</li>
-    <li>🔄 Mantente actualizado con las últimas guías</li>
-    <li>📊 Completa las evaluaciones de cada módulo</li>
-  </ul>
+  <div class="column">
+    <div class="custom-container warning">
+      <p class="custom-container-title">📢 ANTES DE COMENZAR</p>
+      <p>Para aprovechar al máximo este curso:</p>
+      <ul>
+        <li>✅ Sigue el orden recomendado de los módulos</li>
+        <li>📝 Realiza todas las actividades prácticas</li>
+        <li>🔄 Mantente actualizado con las últimas guías</li>
+        <li>📊 Completa las evaluaciones de cada módulo</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 <style>
@@ -187,5 +184,22 @@ h4 {
 
 ul {
   margin: 0.5rem 0;
+}
+
+.two-column-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.column {
+  flex: 1;
+  min-width: 300px;
+}
+
+@media (max-width: 768px) {
+  .two-column-container {
+    flex-direction: column;
+  }
 }
 </style>

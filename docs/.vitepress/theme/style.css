@@ -194,12 +194,14 @@ h1::after {
   /* Mejoramos espacio vertical */
   .vp-doc h1 {
     font-size: 1.8rem !important;
-    margin-top: 1rem !important;
+    margin-top: 2rem !important;
+    margin-bottom: 3rem !important;
   }
   
   .vp-doc h2 {
     font-size: 1.5rem !important;
-    margin-top: 1.5rem !important;
+    margin-top: 2.5rem !important;
+    margin-bottom: 2rem !important;
   }
   
   .vp-doc h3 {
@@ -256,16 +258,22 @@ h1::after {
     max-width: 100%;
     height: auto;
   }
+  
+  /* Aumentar espaciado vertical entre párrafos */
+  .vp-doc p {
+    margin-bottom: 1.2rem !important;
+    line-height: 1.5;
+  }
 }
 
 /* Mejoras específicas para móviles pequeños */
 @media (max-width: 480px) {
   .VPContent {
-    padding: 0 0.5rem;
+    padding: 0 1rem;
   }
   
   .VPDoc {
-    padding: 0 !important;
+    padding: 1rem !important;
   }
   
   .container {
@@ -305,5 +313,10 @@ h1::after {
   .vp-doc [class*="language-"] pre {
     padding: 0.75rem;
     font-size: 0.85rem;
+  }
+  
+  /* Aumentar espaciado entre secciones */
+  .vp-doc > div > * + * {
+    margin-top: 2rem !important;
   }
 }

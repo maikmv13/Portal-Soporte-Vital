@@ -178,3 +178,132 @@ h1::after {
   background-color: var(--vp-c-brand-light);
   border-radius: 3px;
 }
+
+/* Mejoras de adaptabilidad móvil */
+@media (max-width: 768px) {
+  :root {
+    --content-width: 100%;
+  }
+  
+  /* Aumentamos el tamaño de fuente de navegación para mejor toque */
+  .VPNav .menu-item {
+    font-size: 1rem;
+    padding: 0.5rem 0.75rem;
+  }
+  
+  /* Mejoramos espacio vertical */
+  .vp-doc h1 {
+    font-size: 1.8rem !important;
+    margin-top: 1rem !important;
+  }
+  
+  .vp-doc h2 {
+    font-size: 1.5rem !important;
+    margin-top: 1.5rem !important;
+  }
+  
+  .vp-doc h3 {
+    font-size: 1.25rem !important;
+  }
+  
+  /* Ajustamos padding para mejor uso del espacio */
+  .VPContent.has-sidebar {
+    padding: 0 0.5rem;
+  }
+  
+  .VPDoc.has-aside .content-container {
+    max-width: 100%;
+  }
+  
+  /* Mejoramos visualización de tablas */
+  .vp-doc table {
+    display: block;
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  /* Ajustar cards y bloques de contenido */
+  .custom-card, .info-card, .important-card {
+    padding: 0.75rem;
+  }
+  
+  .grid-2, .grid-3 {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  /* Mejor tamaño de toque para botones */
+  button, 
+  .tab-button,
+  .VPButton {
+    min-height: 44px;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Estilos para tabs móviles */
+  .tabs-header {
+    flex-wrap: wrap;
+  }
+  
+  .tab-button {
+    flex: 1 0 auto;
+    white-space: nowrap;
+    text-align: center;
+  }
+  
+  /* Asegurar que las imágenes no desborden */
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+/* Mejoras específicas para móviles pequeños */
+@media (max-width: 480px) {
+  .VPContent {
+    padding: 0 0.5rem;
+  }
+  
+  .VPDoc {
+    padding: 0 !important;
+  }
+  
+  .container {
+    max-width: 100% !important;
+  }
+  
+  .vp-doc h1 {
+    font-size: 1.6rem !important;
+  }
+  
+  .vp-doc h2 {
+    font-size: 1.4rem !important;
+  }
+  
+  .vp-doc h3 {
+    font-size: 1.2rem !important;
+  }
+  
+  /* Estilos para listas y párrafos */
+  .vp-doc p,
+  .vp-doc li {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+  
+  /* Ajustar botones y enlaces para mejor toque */
+  a, button, .tab-button {
+    padding: 0.6rem 0.75rem;
+  }
+  
+  /* Reducir padding en bloques de código */
+  .vp-doc div[class*="language-"] {
+    margin: 0.85rem 0;
+    border-radius: 6px;
+  }
+  
+  .vp-doc [class*="language-"] pre {
+    padding: 0.75rem;
+    font-size: 0.85rem;
+  }
+}

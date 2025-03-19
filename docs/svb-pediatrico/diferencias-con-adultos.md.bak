@@ -1,0 +1,258 @@
+# Diferencias del SVB Pediátrico con Adultos
+
+<div class="custom-card">
+  <div class="card-header">
+    <div class="header-icon">🔄</div>
+    <div class="header-title">Adaptaciones Críticas</div>
+  </div>
+  <div class="card-content">
+    <p>El SVB Pediátrico presenta diferencias significativas respecto al de adultos.</p>
+  </div>
+</div>
+
+## Principales diferencias
+
+<div class="grid-2">
+  <div class="custom-card">
+    <div class="card-header">
+      <div class="header-icon">👨</div>
+      <div class="header-title">Adultos</div>
+    </div>
+    <div class="card-content">
+      <ul>
+        <li>Origen cardíaco</li>
+        <li>Tórax rígido</li>
+        <li>Llamar primero a emergencias</li>
+      </ul>
+    </div>
+  </div>
+  
+  <div class="custom-card">
+    <div class="card-header">
+      <div class="header-icon">👶</div>
+      <div class="header-title">Niños</div>
+    </div>
+    <div class="card-content">
+      <ul>
+        <li>Origen respiratorio</li>
+        <li>Tórax elástico</li>
+        <li>1 minuto de RCP antes de llamar</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+## 1. Causas de la PCR
+
+<div class="grid-2">
+  <div class="custom-card">
+    <div class="card-header">
+      <div class="header-icon">👨</div>
+      <div class="header-title">Adultos</div>
+    </div>
+    <div class="card-content">
+      <p><strong>Principalmente de origen cardíaco</strong></p>
+      <ul>
+        <li>Predominio de fibrilación ventricular</li>
+        <li>Patología coronaria frecuente</li>
+        <li>PCR como evento primario</li>
+        <li>Embolismo pulmonar</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="custom-card">
+    <div class="card-header">
+      <div class="header-icon">👶</div>
+      <div class="header-title">Niños</div>
+    </div>
+    <div class="card-content">
+      <p><strong>Predominantemente de origen respiratorio</strong></p>
+      <ul>
+        <li>Insuficiencia respiratoria progresiva</li>
+        <li>Obstrucción de vía aérea</li>
+        <li>Hipoxemia como desencadenante</li>
+        <li>Traumatismos</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+## 2. Diferencias Anatómicas
+
+<div class="grid-2">
+  <div class="custom-card">
+    <div class="card-header">
+      <div class="header-icon">👨</div>
+      <div class="header-title">Características en Adultos</div>
+    </div>
+    <div class="card-content">
+      <ul>
+        <li>Vía aérea más rígida y estable</li>
+        <li>Lengua proporcionalmente más pequeña</li>
+        <li>Mayor reserva respiratoria</li>
+        <li>Tórax más rígido</li>
+        <li>Frecuencia cardíaca basal: 60-100 lpm</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="custom-card">
+    <div class="card-header">
+      <div class="header-icon">👶</div>
+      <div class="header-title">Características en Niños</div>
+    </div>
+    <div class="card-content">
+      <ul>
+        <li>Vía aérea más estrecha y colapsable</li>
+        <li>Lengua proporcionalmente más grande</li>
+        <li>Menor reserva respiratoria</li>
+        <li>Tórax más elástico</li>
+        <li>Frecuencia cardíaca basal: 80-150 lpm</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+## 3. Técnicas de RCP
+
+<div class="custom-card">
+  <div class="card-header">
+    <div class="header-icon">💪</div>
+    <div class="header-title">Adaptaciones Técnicas según Edad</div>
+  </div>
+  <div class="card-content">
+    <div class="grid-3">
+      <div class="info-box">
+        <h4>Adultos</h4>
+        <ul>
+          <li>Dos manos, centro del tórax</li>
+          <li>Profundidad: 5-6 cm</li>
+          <li>Extensión completa de la cabeza</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h4>Niños (1-8 años)</h4>
+        <ul>
+          <li>Una o dos manos, centro del tórax</li>
+          <li>Profundidad: 1/3 del tórax (≈ 5 cm)</li>
+          <li>Ligera extensión de la cabeza</li>
+        </ul>
+      </div>
+
+      <div class="info-box">
+        <h4>Lactantes (<1 año)</h4>
+        <ul>
+          <li>Dos dedos o técnica del abrazo</li>
+          <li>Profundidad: 1/3 del tórax (≈ 4 cm)</li>
+          <li>Posición neutra</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+## 4. Secuencia de Actuación
+
+<div class="grid-2">
+  <div class="custom-card">
+    <div class="card-header">
+      <div class="header-icon">👨</div>
+      <div class="header-title">Secuencia en Adultos</div>
+    </div>
+    <div class="card-content">
+      <ol>
+        <li>Verificar respuesta y respiración</li>
+        <li>Llamar al 112 (primero)</li>
+        <li>Iniciar con compresiones (C-A-B)</li>
+        <li>Relación 30:2</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="custom-card important-card">
+    <div class="card-header">
+      <div class="header-icon">👶</div>
+      <div class="header-title">Secuencia en Pediatría</div>
+    </div>
+    <div class="card-content">
+      <ol>
+        <li>Verificar respuesta y respiración</li>
+        <li>Iniciar RCP durante 1 min (si está solo)</li>
+        <li>5 ventilaciones iniciales (A-B-C)</li>
+        <li>Relación 15:2 (profesionales)</li>
+      </ol>
+    </div>
+  </div>
+</div>
+
+<div class="custom-container warning">
+  <p class="custom-container-title">IMPORTANTE</p>
+  <p>La mayoría de las paradas cardiorrespiratorias en niños son secundarias a problemas respiratorios, por lo que la ventilación adquiere una importancia especial en la reanimación pediátrica.</p>
+</div>
+
+<style>
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin: 1rem 0;
+}
+
+.custom-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  margin-bottom: 1rem;
+}
+
+.info-card {
+  border-left: 4px solid #3498db;
+}
+
+.important-card {
+  border-left: 4px solid #e74c3c;
+}
+
+.card-header {
+  padding: 1rem;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.header-icon {
+  font-size: 1.5rem;
+  margin-right: 0.8rem;
+}
+
+.header-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.card-content {
+  padding: 1rem;
+}
+
+.info-box {
+  background: #f8f9fa;
+  padding: 1rem;
+  border-radius: 6px;
+  border-left: 3px solid #3498db;
+}
+
+.info-box h4 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+</style>

@@ -1,0 +1,180 @@
+:root {
+  --vp-c-brand: #3eaf7c;
+  --vp-c-brand-light: #4abf8a;
+  --vp-c-brand-lighter: #5ccf99;
+  --vp-c-brand-dark: #369f6b;
+  --vp-c-brand-darker: #2d8a5f;
+  
+  /* Custom properties */
+  --content-width: 900px;
+  --sidebar-width: 280px;
+}
+
+.dark {
+  --vp-c-bg-soft: #2c2c2c;
+}
+
+/* Layout */
+.VPContent {
+  padding: 0 24px;
+}
+
+/* Navigation */
+.VPNavBar {
+  border-bottom: 1px solid var(--vp-c-divider);
+}
+
+.VPNavBar.has-sidebar {
+  border-bottom: none;
+}
+
+/* Custom blocks */
+.custom-block {
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+.custom-block.tip {
+  border-color: var(--vp-c-brand);
+}
+
+.custom-block.warning {
+  border-color: #e7c000;
+}
+
+.custom-block.danger {
+  border-color: #cc0000;
+}
+
+/* Instructor card */
+.instructor {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.5rem;
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  margin: 1.5rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.instructor-info {
+  flex: 1;
+}
+
+.instructor-badges {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  margin-top: 0.75rem;
+}
+
+.badge {
+  padding: 0.25rem 0.75rem;
+  border-radius: 999px;
+  background: var(--vp-c-brand);
+  color: white;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.badge:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive design */
+@media (max-width: 640px) {
+  .instructor {
+    flex-direction: column;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .instructor-badges {
+    justify-content: center;
+  }
+}
+
+/* Print styles */
+@media print {
+  .VPNavBar,
+  .VPSidebar,
+  .VPDocAside {
+    display: none;
+  }
+  
+  .VPContent {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/* Estilos para imágenes dentro de tarjetas */
+.content-with-image {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+}
+
+.content-text {
+  flex: 1;
+  min-width: 250px;
+}
+
+.content-image {
+  flex: 0 0 auto;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-image img {
+  max-width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+}
+
+@media (max-width: 640px) {
+  .content-with-image {
+    flex-direction: column;
+  }
+  
+  .content-text {
+    width: 100%;
+  }
+  
+  .content-image {
+    width: 100%;
+    margin-top: 15px;
+  }
+}
+
+/* Estilos para encabezados */
+h1 {
+  margin-bottom: 2.5rem !important; /* Aumentamos considerablemente el margen inferior */
+  padding-bottom: 0.5rem; /* Añade un poco de padding inferior */
+  position: relative; /* Para posibles efectos decorativos */
+}
+
+h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Opcionalmente, podemos añadir una línea decorativa */
+h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100px;
+  height: 3px;
+  background-color: var(--vp-c-brand-light);
+  border-radius: 3px;
+}

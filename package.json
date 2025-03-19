@@ -1,0 +1,18 @@
+{
+  "name": "svb-sva-docs",
+  "version": "1.0.0",
+  "description": "Documentación del Curso de Soporte Vital Básico y Avanzado",
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-rc.40"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.11.5"
+  }
+}

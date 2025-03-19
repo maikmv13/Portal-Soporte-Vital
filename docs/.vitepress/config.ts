@@ -162,7 +162,7 @@ export default defineConfig({
   title: 'Curso SVB y SVA',
   description: 'Curso de Soporte Vital Básico y Avanzado',
   lastUpdated: false,
-  appearance: true,
+  appearance: false,
   
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],

@@ -18,6 +18,14 @@ node_modules/
 # Cache de VitePress
 docs/.vitepress/cache/
 docs/.vitepress/.temp/
+docs/.vitepress/dist/
 
-# Excluir archivos de build (comentar si necesitas incluir estos en git)
-# docs/.vitepress/dist/ 
+# Archivos temporales y generados por Vite/Vue
+**/__vitepress_temp__/
+**/.vitepress/.temp/**
+**/.vitepress/temp/**
+**/vitepress___*
+**/@vue_devtools**
+**/@vueuse_**
+**/mark__js_**
+**/minisearch.js**

@@ -7,8 +7,9 @@ La Parada Cardio-Respiratoria (PCR) es una situación crítica en la que la resp
 
 ## Concepto y Definición
 
-::: tip Definición
+:::tip[Definición]
 La Parada Cardiorrespiratoria (PCR) se define como la interrupción brusca, inesperada y potencialmente reversible de la respiración y la circulación espontáneas. Es una emergencia médica que requiere intervención inmediata para evitar daño cerebral irreversible y muerte.
+:::
 :::
 
 Esta situación constituye una de las principales causas de muerte súbita en el mundo desarrollado, representando un importante problema de salud pública por su elevada incidencia y mortalidad. La PCR puede presentarse tanto en el ámbito hospitalario como extrahospitalario, siendo este último escenario el que presenta mayores desafíos para una atención temprana y efectiva.
@@ -34,8 +35,9 @@ El diagnóstico debe realizarse en el menor tiempo posible, siguiendo una secuen
 3. Verificar si respira con normalidad durante 10 segundos (ver, oír, sentir).
 4. La comprobación del pulso carotídeo solo debe ser realizada por personal sanitario, ya que puede resultar difícil para personas sin entrenamiento.
 
-::: warning Importante
+:::caution[Importante]
 Si existen dudas sobre si la víctima está en PCR, se recomienda actuar como si lo estuviera e iniciar inmediatamente las maniobras de RCP, pues el beneficio potencial supera ampliamente el riesgo de realizar compresiones en alguien que no las necesita.
+:::
 :::
 
 ## 🏥 Causas Principales

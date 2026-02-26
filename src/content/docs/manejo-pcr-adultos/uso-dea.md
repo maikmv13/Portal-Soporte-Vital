@@ -178,6 +178,7 @@ title: Uso del DEA en el Manejo de la PCR
 - **Víctima con desfibrilador implantado**: Colocar los parches alejados del dispositivo (al menos 8 cm)
 - **Niños menores de 8 años**: Utilizar parches pediátricos si están disponibles; si no, usar parches de adulto
 
-::: tip RECUERDA
+:::tip[RECUERDA]
 El DEA es extremadamente seguro y está diseñado para ser utilizado por cualquier persona, incluso sin entrenamiento previo. Siempre siga las instrucciones de voz del dispositivo y no tema utilizarlo.
 ::: 
+:::

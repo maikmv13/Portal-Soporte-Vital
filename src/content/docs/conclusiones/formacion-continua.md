@@ -73,6 +73,7 @@ El Consejo Europeo de Resucitación (ERC) y otros organismos internacionales com
 
 Desarrollan, actualizan y difunden las recomendaciones para la formación y práctica del soporte vital.
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 La formación teórica sin práctica regular tiene un impacto limitado. Es la combinación de conocimientos actualizados y habilidades prácticas ejercitadas periódicamente lo que realmente marca la diferencia en situaciones de emergencia.
+:::
 :::

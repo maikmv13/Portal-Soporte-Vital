@@ -64,8 +64,9 @@ La actuación temprana es el factor determinante en la supervivencia de una víc
 5. **3-8 minutos**: Llegada de SVA (si está disponible)
 6. **8 minutos en adelante**: Traslado y cuidados post-resucitación
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 La actuación del primer respondiente es crítica. La supervivencia depende más de lo que ocurre en los primeros 5 minutos que de lo que sucede en las siguientes horas en el hospital.
+:::
 :::
 
 ## Conclusión global

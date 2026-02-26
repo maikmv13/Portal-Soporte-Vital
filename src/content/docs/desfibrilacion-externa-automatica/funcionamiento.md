@@ -45,6 +45,7 @@ El DEA se activa fácilmente, con instrucciones claras y audibles que guían al 
    - El DEA volverá a analizar el ritmo automáticamente
    - Seguir las instrucciones del dispositivo
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 Las compresiones torácicas solo deben interrumpirse durante el análisis del ritmo y la administración de la descarga. La RCP debe reanudarse inmediatamente después de cada descarga.
+:::
 :::

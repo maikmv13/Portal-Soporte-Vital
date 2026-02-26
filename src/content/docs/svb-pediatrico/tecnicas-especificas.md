@@ -79,6 +79,7 @@ Las técnicas de Soporte Vital Básico (SVB) pediátrico presentan particularida
 5. Girar al niño hacia el lado del reanimador, manteniendo alineada la cabeza
 6. Colocar la mano bajo la mejilla para mantener la extensión del cuello
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 Las compresiones deben ser rápidas y profundas, minimizando las interrupciones. El reanimador que realiza las compresiones debe rotarse cada 2 minutos para mantener la calidad de las compresiones.
+:::
 :::

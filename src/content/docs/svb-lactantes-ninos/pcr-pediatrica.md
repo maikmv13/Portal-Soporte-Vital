@@ -104,6 +104,7 @@ La Parada Cardiorrespiratoria (PCR) pediátrica presenta características difere
    - Relación 3:1 (3 compresiones:1 ventilación)
    - 120 eventos por minuto (90 compresiones y 30 ventilaciones)
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 La ventilación es el componente más importante en la reanimación pediátrica. Asegurar ventilaciones efectivas es prioritario, y se debe comprobar la elevación del tórax con cada ventilación.
+:::
 :::

@@ -54,6 +54,7 @@ Desde su implantación, las unidades SVAE han demostrado:
 
 La integración de los SVA Medicalizado y SVA Enfermero con la Red de Transporte Sanitario Urgente y los Helicópteros Medicalizados garantiza una cobertura integral de emergencias en Galicia, permitiendo una respuesta eficiente y rápida en la atención a pacientes críticos. La implantación de SVAE refuerza este sistema, asegurando que todos los recursos estén alineados para mejorar la tasa de supervivencia de los pacientes.
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 Las unidades SVAE no sustituyen a las unidades de SVAM, sino que complementan la red de transporte sanitario urgente, permitiendo una mejor distribución de recursos según la gravedad de cada caso.
 ::: 
+:::

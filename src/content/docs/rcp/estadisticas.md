@@ -3,8 +3,9 @@ title: 📊 Estadísticas de RCP en España
 ---
 
 
-::: tip 💡 Concepto Clave
+:::tip[💡 Concepto Clave]
 La Reanimación Cardiopulmonar (RCP) es un conjunto de maniobras de emergencia diseñadas para mantener las funciones vitales hasta la llegada de soporte avanzado, siendo **crucial** su aplicación precoz para aumentar las probabilidades de supervivencia.
+:::
 :::
 
 <div class="custom-container tip">
@@ -88,12 +89,13 @@ El registro español de parada cardíaca extrahospitalaria **OHSCAR** (Out-of-Ho
 
 ## 👨‍👩‍👧‍👦 Perfil Demográfico
 
-::: warning 🚨 Grupos de Riesgo
+:::caution[🚨 Grupos de Riesgo]
 Las estadísticas muestran un claro perfil de las víctimas de PCR en España:
 - **70%** son hombres
 - **Media de edad**: 65.7 años
 - **Franjas horarias principales**: 8-10h y 18-20h
 - **Prevalencia**: Mayor en zonas urbanas densamente pobladas
+:::
 :::
 
 ## 🏆 Factores de Éxito
@@ -136,7 +138,7 @@ Las estadísticas muestran un claro perfil de las víctimas de PCR en España:
 
 España ocupa una posición intermedia en el panorama internacional de la atención a la PCR:
 
-::: info 🌍 Ranking Europeo
+:::note[🌍 Ranking Europeo]
 | País | Supervivencia | Formación Población | DEAs/10.000 hab. |
 |------|---------------|---------------------|-----------------|
 | Dinamarca | 25% | 80% | 15.2 |
@@ -147,11 +149,13 @@ España ocupa una posición intermedia en el panorama internacional de la atenci
 | España | 10% | 4.5% | 6.9 |
 | Italia | 8% | 3% | 5.2 |
 :::
+:::
 
 ## 📱 Impacto de la Tecnología
 
-::: tip 💻 Innovación Tecnológica
+:::tip[💻 Innovación Tecnológica]
 El desarrollo de aplicaciones móviles específicas para emergencias ha mejorado la respuesta ante PCR:
+:::
 
 - **112 Geolocalización**: Reduce tiempo de localización en 1.5 minutos
 - **Ariadna**: Control de DEAs públicos y privados

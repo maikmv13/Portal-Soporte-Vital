@@ -70,8 +70,9 @@ Las técnicas de desobstrucción de la vía aérea varían según la edad del pa
 - Continuar hasta que se expulse el objeto o el niño pierda la consciencia
 - Si pierde consciencia, iniciar RCP (comenzando por compresiones)
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 Las compresiones abdominales (maniobra de Heimlich) están CONTRAINDICADAS en lactantes menores de 1 año por el riesgo de lesiones en órganos abdominales.
+:::
 :::
 
 ## Actuación en paciente inconsciente

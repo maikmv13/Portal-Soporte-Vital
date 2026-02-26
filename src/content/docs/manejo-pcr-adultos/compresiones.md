@@ -80,6 +80,7 @@ La calidad de las compresiones disminuye significativamente debido a la fatiga:
 - **Lesiones costales**: Son frecuentes en RCP efectiva y no deben detener las compresiones
 - **Monitorización**: En entornos avanzados, utilizar capnografía como indicador de calidad de RCP
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 Nunca sacrificar la calidad de las compresiones por la velocidad. Es preferible realizar compresiones efectivas aunque sean algo más lentas, que compresiones rápidas pero ineficaces.
 ::: 
+:::

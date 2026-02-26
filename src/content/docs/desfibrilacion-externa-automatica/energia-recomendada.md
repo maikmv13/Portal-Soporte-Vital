@@ -51,6 +51,7 @@ La energía de desfibrilación debe ajustarse según la edad y el tamaño del pa
   - Clave o interruptor específico
   - Indicaciones visuales (generalmente color diferente)
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 La efectividad de la desfibrilación depende más de la prontitud de su aplicación que del nivel exacto de energía utilizado. Nunca retrasar una desfibrilación por dudas sobre el nivel de energía.
+:::
 :::

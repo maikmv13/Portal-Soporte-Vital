@@ -5,16 +5,18 @@ title: 🌍 Últimas Recomendaciones del ERC
 
 ## 📅 Actualizaciones Recientes
 
-::: tip Última Actualización
+:::tip[Última Actualización]
 El Consejo Europeo de Resucitación (ERC) publicó sus últimas guías en octubre de 2021.
 Próxima actualización prevista: 2025
+:::
 :::
 
 ## 🌐 Organizaciones Involucradas
 
-::: info Estructura Internacional
+:::note[Estructura Internacional]
 - 🇪🇺 **ERC**: Consejo Europeo de Resucitación
 - 🌍 **ILCOR**: Organización internacional que revisa anualmente las mejores prácticas
+:::
 :::
 
 ## 🚑 Red de Transporte Sanitario en Galicia
@@ -32,18 +34,20 @@ Próxima actualización prevista: 2025
 - 🚁 Helicópteros en Santiago y Ourense
 
 ### 📱 Coordinación
-::: tip Sistema Integrado
+:::tip[Sistema Integrado]
 - ☎️ Comunicación telefónica
 - 📻 Radio
 - 🛰️ GPS
 - 🎯 Optimización de tiempos de respuesta
 :::
+:::
 
 ## 📊 Estándares de Calidad
 
-::: warning Indicadores Clave
+:::caution[Indicadores Clave]
 - ⏱️ Tiempos de respuesta
 - 📈 Tasas de supervivencia
 - 🎯 Calidad de la RCP
 - 💉 Protocolos de actuación
+:::
 :::

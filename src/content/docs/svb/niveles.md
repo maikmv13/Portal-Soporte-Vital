@@ -9,11 +9,12 @@ La Reanimación Cardiopulmonar (RCP) se divide en dos niveles de intervención: 
 ## 💚 Soporte Vital Básico
 
 ### Características Principales
-::: tip 📋 SVB
+:::tip[📋 SVB]
 - Sin equipo especializado
 - Técnicas manuales básicas
 - Primera respuesta ante PCR
 - Realizable por personal formado
+:::
 :::
 
 El Soporte Vital Básico incluye maniobras iniciales que no requieren equipo avanzado. Se centra en las tres funciones vitales fundamentales: respiración, circulación y control de la vía aérea.
@@ -39,11 +40,12 @@ Incluye acciones iniciales como compresiones torácicas, ventilaciones de rescat
 ## 💙 Soporte Vital Avanzado
 
 ### Características Distintivas
-::: info 🏥 SVA
+:::note[🏥 SVA]
 - Personal sanitario cualificado
 - Equipamiento específico
 - Técnicas invasivas
 - Tratamiento definitivo
+:::
 :::
 
 El Soporte Vital Avanzado (SVA) implica el uso de equipos médicos especializados y técnicas avanzadas, como la intubación, el manejo de la vía aérea, la administración de medicamentos y la interpretación de ritmos cardíacos. El SVA se lleva a cabo después de los primeros minutos de SVB, cuando el paciente sigue en estado crítico.
@@ -79,19 +81,21 @@ Tras la estabilización inicial con SVB, el SVA es necesario para el manejo avan
 ## 🔄 Integración SVB-SVA
 
 ### Transición
-::: warning ⚠️ Importante
+:::caution[⚠️ Importante]
 1. Mantener RCP de calidad
 2. Minimizar interrupciones
 3. Transferencia ordenada
 4. Comunicación efectiva
 :::
+:::
 
 ### Trabajo en Equipo
-::: tip 👥 Coordinación
+:::tip[👥 Coordinación]
 - Roles definidos
 - Comunicación clara
 - Liderazgo efectivo
 - Evaluación continua
+:::
 :::
 
 ## 📊 Resultados Esperados
@@ -108,9 +112,10 @@ Tras la estabilización inicial con SVB, el SVA es necesario para el manejo avan
 
 ## ⚠️ Secuencia de Actuación
 
-::: info 🔄 Progresión
+:::note[🔄 Progresión]
 1. Inicio de SVB por primeros intervinientes
 2. Llegada de equipo con DEA
 3. Integración de SVA por personal especializado
 4. Coordinación entre ambos niveles
+:::
 :::

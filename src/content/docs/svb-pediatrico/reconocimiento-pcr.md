@@ -68,6 +68,7 @@ Es importante reconocer las situaciones que pueden llevar a una PCR pediátrica:
    - Observar signos de vida
    - Máximo 10 segundos para evitar retrasos
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 En caso de duda sobre si se trata o no de una PCR, se debe actuar como si lo fuera e iniciar inmediatamente las maniobras de reanimación. Es preferible iniciar maniobras en un paciente que no las necesita que retrasarlas en quien sí las requiere.
+:::
 :::

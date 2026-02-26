@@ -54,6 +54,7 @@ La correcta colocación de los parches adhesivos (electrodos) del DEA es fundame
   - Retirar los parches medicados antes de colocar los electrodos del DEA
   - Limpiar la zona si es posible
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 La colocación correcta de los parches es esencial para que el DEA pueda analizar con precisión el ritmo cardíaco y administrar la descarga de manera efectiva. Siempre seguir las ilustraciones que aparecen en los propios parches o en el DEA.
+:::
 :::

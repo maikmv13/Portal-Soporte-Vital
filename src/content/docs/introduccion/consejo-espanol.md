@@ -40,11 +40,12 @@ title: Consejo Español de RCP
 
 ## 💫 Funciones Específicas
 
-::: info 📋 Responsabilidades Clave
+:::note[📋 Responsabilidades Clave]
 - Adaptación de guías internacionales
 - Desarrollo de protocolos nacionales
 - Acreditación de centros formativos
 - Certificación de instructores
+:::
 :::
 
 ## 🏥 Red Asistencial
@@ -133,9 +134,10 @@ title: Consejo Español de RCP
 ## 📱 Recursos Disponibles
 
 ### Materiales y Herramientas
-::: info 🔧 Recursos
+:::note[🔧 Recursos]
 - Guías clínicas
 - Material didáctico
 - Apps de soporte
 - Simuladores
+:::
 :::

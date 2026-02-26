@@ -6,8 +6,9 @@ title: Historia y Relevancia del ERC
 
 ## 📚 Historia del ERC
 
-::: tip 🏛️ Fundación
+:::tip[🏛️ Fundación]
 El Consejo Europeo de Resucitación (ERC) se estableció como la principal autoridad en resucitación en Europa, trabajando para mejorar la supervivencia en casos de parada cardíaca.
+:::
 :::
 
 ### 📅 Cronología Clave
@@ -21,11 +22,12 @@ El Consejo Europeo de Resucitación (ERC) se estableció como la principal autor
 ## 🌟 Relevancia Actual
 
 ### Funciones Principales
-::: info 📋 Responsabilidades
+:::note[📋 Responsabilidades]
 - 📚 Desarrollo de guías de resucitación
 - 🎓 Formación de profesionales
 - 🔬 Investigación en resucitación
 - 🤝 Colaboración internacional
+:::
 :::
 
 ### Impacto en la Práctica Clínica
@@ -42,14 +44,15 @@ El Consejo Europeo de Resucitación (ERC) se estableció como la principal autor
 
 ## 🔄 Ciclo de Actualización
 
-::: warning ⚠️ Actualización de Guías
+:::caution[⚠️ Actualización de Guías]
 Las guías se revisan y actualizan cada 5 años, con la próxima actualización prevista para 2025.
+:::
 :::
 
 ## 🌐 ILCOR
 
 ### Colaboración Internacional
-::: info 🤝 Miembros
+:::note[🤝 Miembros]
 - American Heart Association (AHA)
 - European Resuscitation Council (ERC)
 - Heart and Stroke Foundation of Canada (HSFC)
@@ -58,15 +61,17 @@ Las guías se revisan y actualizan cada 5 años, con la próxima actualización 
 - Inter American Heart Foundation (IAHF)
 - Resuscitation Council of Asia (RCA)
 :::
+:::
 
 ## 📊 Impacto en la Supervivencia
 
 ### Estadísticas
-::: tip 📈 Mejoras
+:::tip[📈 Mejoras]
 La implementación de las guías ERC ha contribuido a:
 - Aumento del 10-15% en supervivencia
 - Mejor pronóstico neurológico
 - Reducción de secuelas
+:::
 :::
 
 ## 🎓 Programas de Formación

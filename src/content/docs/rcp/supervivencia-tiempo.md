@@ -3,8 +3,9 @@ title: ⏱️ Supervivencia y Tiempo en RCP
 ---
 
 
-::: tip 🚨 Factor Crítico
+:::tip[🚨 Factor Crítico]
 El tiempo es el elemento más determinante en la supervivencia tras una parada cardiorrespiratoria. La intervención temprana no solo salva vidas, sino que también puede reducir significativamente las secuelas neurológicas.
+:::
 :::
 
 ## ⏰ La Ventana de Oportunidad
@@ -95,7 +96,7 @@ El tiempo es el elemento más determinante en la supervivencia tras una parada c
 
 ## 🔍 Análisis de Supervivencia por Factores
 
-::: info 📈 Factores que Modifican la Supervivencia
+:::note[📈 Factores que Modifican la Supervivencia]
 | Factor | Incremento en Supervivencia | Explicación |
 |--------|--------------------------|-------------|
 | RCP por testigos | +200-300% | Mantiene perfusión cerebral y cardíaca |
@@ -103,6 +104,7 @@ El tiempo es el elemento más determinante en la supervivencia tras una parada c
 | PCR presenciada | +150-200% | Permite respuesta inmediata sin retraso |
 | RCP guiada por teléfono | +50-75% | Mejora calidad de las compresiones |
 | Soporte Vital Avanzado <8 min | +40-60% | Proporciona tratamiento definitivo |
+:::
 :::
 
 ## 🧪 Investigación Reciente
@@ -140,8 +142,9 @@ El tiempo es el elemento más determinante en la supervivencia tras una parada c
 
 ## 🌡️ La Ecuación Supervivencia-Tiempo
 
-::: warning 🧮 Fórmula Pronóstica
+:::caution[🧮 Fórmula Pronóstica]
 Los expertos han desarrollado ecuaciones para estimar la supervivencia en función del tiempo, siendo la más aceptada:
+:::
 
 **S = S₀ × (0.93)^t**
 
@@ -191,8 +194,9 @@ Donde:
 
 ## 🧠 Impacto en la Función Cerebral
 
-::: tip 💭 Recuperación Neurológica
+:::tip[💭 Recuperación Neurológica]
 La escala CPC (Cerebral Performance Category) clasifica el estado neurológico tras una RCP:
+:::
 
 | Categoría | Descripción | % Pacientes Reanimados |
 |-----------|-------------|------------------------|

@@ -81,6 +81,7 @@ La Obstrucción de las Vías Aéreas por Cuerpo Extraño (OVACE) es una emergenc
    - Iniciar RCP con compresiones torácicas
    - Seguir el protocolo de PCR pediátrica
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 Nunca realizar compresiones abdominales (maniobra de Heimlich) en lactantes, ya que pueden producir lesiones graves en órganos internos. Utilizar siempre la secuencia de golpes interescapulares y compresiones torácicas.
+:::
 :::

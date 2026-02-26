@@ -84,6 +84,7 @@ Existen situaciones especiales que requieren adaptaciones en las técnicas está
   - RCP convencional
   - Alta sospecha de arritmias cardíacas, uso precoz del DEA
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 En todas estas situaciones especiales, los principios básicos de la RCP siguen siendo válidos: compresiones torácicas de calidad, minimización de interrupciones y desfibrilación precoz cuando esté indicada.
+:::
 :::

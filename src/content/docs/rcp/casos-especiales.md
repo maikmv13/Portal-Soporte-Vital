@@ -3,8 +3,9 @@ title: 🌟 Casos Especiales en RCP
 ---
 
 
-::: tip 📋 Adaptaciones Necesarias
+:::tip[📋 Adaptaciones Necesarias]
 La Reanimación Cardiopulmonar debe adaptarse a situaciones especiales que requieren modificaciones en el algoritmo estándar. Estos escenarios presentan desafíos únicos que demandan conocimientos específicos para maximizar las probabilidades de éxito.
+:::
 :::
 
 ## ❄️ Hipotermia
@@ -43,13 +44,14 @@ La Reanimación Cardiopulmonar debe adaptarse a situaciones especiales que requi
 </div>
 </div>
 
-::: warning 📊 Clasificación de Hipotermia
+:::caution[📊 Clasificación de Hipotermia]
 | Grado | Temperatura | Características | Manejo en RCP |
 |-------|-------------|-----------------|---------------|
 | Leve | 32-35°C | Consciencia preservada, temblor | RCP estándar |
 | Moderada | 28-32°C | Disminución consciencia, ausencia de temblor | Máximo 3 descargas hasta recalentar |
 | Severa | 24-28°C | Inconsciente, signos vitales mínimos | No más descargas hasta >28°C |
 | Profunda | <24°C | Muerte aparente, rigidez | RCP y recalentamiento agresivo |
+:::
 :::
 
 ## 🌊 Ahogamiento
@@ -131,8 +133,9 @@ La Reanimación Cardiopulmonar debe adaptarse a situaciones especiales que requi
 
 ## ⚡ Electrocución
 
-::: info 💡 LESIÓN POR ELECTRICIDAD
+:::note[💡 LESIÓN POR ELECTRICIDAD]
 La PCR por electrocución presenta características particulares:
+:::
 
 - **Mecanismo**: Alteración eléctrica cardíaca directa + lesiones térmicas
 - **Duración**: El contacto prolongado con la fuente aumenta gravedad
@@ -220,8 +223,9 @@ La PCR por electrocución presenta características particulares:
 
 ## 🧓 Ancianos y Comorbilidades
 
-::: tip 👵 TERCERA EDAD Y ENFERMEDADES CRÓNICAS
+:::tip[👵 TERCERA EDAD Y ENFERMEDADES CRÓNICAS]
 Los pacientes ancianos y aquellos con múltiples enfermedades previas presentan desafíos particulares:
+:::
 
 ### Consideraciones Especiales
 - Mayor fragilidad torácica: riesgo de fracturas costales

@@ -3,8 +3,9 @@ title: 🏥 ¿Qué es el Soporte Vital?
 ---
 
 
-::: warning ¡Importante!
+:::caution[¡Importante!]
 El Soporte Vital comprende todas aquellas maniobras destinadas a revertir una situación de parada cardiorrespiratoria, buscando restablecer la respiración y circulación espontáneas.
+:::
 :::
 
 ## 🔄 Tipos de Soporte Vital
@@ -24,9 +25,10 @@ El Soporte Vital comprende todas aquellas maniobras destinadas a revertir una si
 
 ## ⏱️ Tiempos Críticos
 
-::: tip Ventana de Oportunidad
+:::tip[Ventana de Oportunidad]
 - SVB: Primeros 4 minutos tras la PCR
 - SVA: Primeros 8 minutos tras la PCR
+:::
 :::
 
 ## 📊 Impacto del Soporte Vital

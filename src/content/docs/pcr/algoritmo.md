@@ -110,8 +110,9 @@ Para realizar correctamente las ventilaciones:
 5. Permitir la exhalación pasiva mientras nos preparamos para la siguiente ventilación
 6. Proporcionar una segunda ventilación y continuar con las compresiones
 
-::: tip Alternativas
+:::tip[Alternativas]
 Si no se está entrenado o no se desea realizar ventilaciones, se puede realizar la RCP solo con compresiones, que es mejor que no hacer nada.
+:::
 :::
 
 ## 6️⃣ Uso del Desfibrilador Externo Automático (DEA)

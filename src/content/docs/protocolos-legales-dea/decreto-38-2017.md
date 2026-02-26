@@ -50,6 +50,7 @@ El Decreto contempla mecanismos de revisión y actualización periódica para ad
 - Nuevas recomendaciones científicas internacionales
 - Necesidades identificadas en la implementación práctica
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 El incumplimiento de las disposiciones establecidas en este Decreto puede dar lugar a responsabilidades administrativas, sin perjuicio de las posibles responsabilidades civiles o penales que pudieran derivarse.
+:::
 :::

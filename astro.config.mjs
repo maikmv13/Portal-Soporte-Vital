@@ -38,165 +38,104 @@ export default defineConfig({
         },
         sidebar: [
             {
-                label: '1. Introducción al Soporte Vital Avanzado (SVA)',
+                label: '1. Introducción SVA',
                 collapsed: true,
                 items: [
                     { label: 'Presentación', link: '/introduccion/presentacion' },
                     { label: 'Soporte Vital', link: '/introduccion/soporte-vital' },
                     { label: 'Definición y objetivos', link: '/introduccion/definicion' },
-                    { label: 'Historia y relevancia del ERC', link: '/introduccion/historia-erc' },
-                    { label: 'Consejo Español de RCP', link: '/introduccion/consejo-espanol' },
+                    { label: 'Historia y ERC', link: '/introduccion/historia-erc' },
+                    { label: 'Consejo Español RCP', link: '/introduccion/consejo-espanol' },
                     { label: 'Formación en RCP', link: '/introduccion/formacion-rcp' }
                 ]
             },
             {
-                label: '2. Tipos de Unidades de Soporte Vital',
+                label: '2. Unidades de Soporte',
                 collapsed: true,
                 items: [
-                    { label: 'SVA Medicalizado y SVA Enfermero', link: '/tipos-unidades-soporte-vital/sva-medicalizado-enfermero' },
-                    { label: 'Red de Transporte Sanitario Urgente', link: '/tipos-unidades-soporte-vital/red-transporte-sanitario' },
-                    { label: 'Helicópteros Medicalizados', link: '/tipos-unidades-soporte-vital/helicopteros-medicalizados' },
-                    { label: 'Implantación de SVAE', link: '/tipos-unidades-soporte-vital/implantacion-svae' }
+                    { label: 'SVA Med. vs Enfermero', link: '/tipos-unidades-soporte-vital/sva-medicalizado-enfermero' },
+                    { label: 'Red de Transporte', link: '/tipos-unidades-soporte-vital/red-transporte-sanitario' },
+                    { label: 'Helicópteros', link: '/tipos-unidades-soporte-vital/helicopteros-medicalizados' },
+                    { label: 'Implantación SVAE', link: '/tipos-unidades-soporte-vital/implantacion-svae' }
                 ]
             },
             {
-                label: '3. Soporte Vital Básico (SVB)',
+                label: '3. Soporte Vital Básico',
                 collapsed: true,
                 items: [
-                    { label: 'Concepto de SVB', link: '/svb/concepto' },
-                    { label: 'RCP en dos niveles', link: '/svb/niveles' },
+                    { label: 'Concepto SVB', link: '/svb/concepto' },
+                    { label: 'Niveles de RCP', link: '/svb/niveles' },
                     { label: 'Técnicas básicas', link: '/svb/tecnicas' },
-                    { label: 'Manejo de la OVACE', link: '/svb/ovace' }
+                    { label: 'Manejo OVACE', link: '/svb/ovace' }
                 ]
             },
             {
-                label: '4. Objetivos del Soporte Vital Básico',
+                label: '4. Objetivos SVB',
                 collapsed: true,
                 items: [
-                    { label: 'Valoración de la víctima', link: '/objetivos/valoracion' },
-                    { label: 'Compresiones torácicas', link: '/objetivos/compresiones' },
+                    { label: 'Valoración víctima', link: '/objetivos/valoracion' },
+                    { label: 'Compresiones', link: '/objetivos/compresiones' },
                     { label: 'Uso del DEA', link: '/objetivos/dea' },
-                    { label: 'Posición lateral de seguridad', link: '/objetivos/pls' },
-                    { label: 'Manejo de atragantamientos', link: '/objetivos/atragantamiento' }
+                    { label: 'Posición PLS', link: '/objetivos/pls' },
+                    { label: 'Atragantamientos', link: '/objetivos/atragantamiento' }
                 ]
             },
             {
-                label: '5. Parada Cardio-Respiratoria (PCR)',
+                label: '5. Parada (PCR)',
                 collapsed: true,
                 items: [
-                    { label: 'Definición y diagnóstico', link: '/pcr/definicion' },
+                    { label: 'Definición', link: '/pcr/definicion' },
                     { label: 'Algoritmo PCR', link: '/pcr/algoritmo' },
                     { label: 'Atención precoz', link: '/pcr/atencion-precoz' }
                 ]
             },
             {
-                label: '6. Reanimación Cardiopulmonar (RCP)',
+                label: '6. Reanimación (RCP)',
                 collapsed: true,
                 items: [
-                    { label: 'Introducción a la RCP', link: '/rcp' },
-                    { label: 'Estadísticas en España', link: '/rcp/estadisticas' },
-                    { label: 'Supervivencia y tiempo', link: '/rcp/supervivencia-tiempo' },
+                    { label: 'Introducción', link: '/rcp' },
+                    { label: 'Estadísticas', link: '/rcp/estadisticas' },
+                    { label: 'Supervivencia', link: '/rcp/supervivencia-tiempo' },
                     { label: 'Casos especiales', link: '/rcp/casos-especiales' }
                 ]
             },
             {
-                label: '7. Cadena de Supervivencia',
+                label: '7. Cadena Supervivencia',
                 collapsed: true,
                 items: [
                     { label: 'Visión General', link: '/cadena-supervivencia' },
-                    { label: 'Eslabones de la cadena', link: '/cadena-supervivencia/eslabones' },
-                    { label: 'Formación de profesionales', link: '/cadena-supervivencia/formacion-profesionales' },
-                    { label: 'Central de Coordinación 061', link: '/cadena-supervivencia/central-coordinacion' }
+                    { label: 'Eslabones', link: '/cadena-supervivencia/eslabones' },
+                    { label: 'Formación', link: '/cadena-supervivencia/formacion-profesionales' },
+                    { label: 'Central 061', link: '/cadena-supervivencia/central-coordinacion' }
                 ]
             },
-            {
-                label: '8. Algoritmo SVB para Adultos',
-                collapsed: true,
-                items: [
-                    { label: 'Resumen del Algoritmo', link: '/algoritmo-svb-adultos' },
-                    { label: 'Seguridad', link: '/algoritmo-svb-adultos/seguridad' },
-                    { label: 'Evaluación inicial', link: '/algoritmo-svb-adultos/evaluacion-inicial' },
-                    { label: 'RCP y solicitud de ayuda', link: '/algoritmo-svb-adultos/rcp-y-ayuda' }
-                ]
-            },
-            {
-                label: '9. Posición Lateral de Seguridad',
-                collapsed: true,
-                items: [
-                    { label: 'Visión general', link: '/posicion-lateral-seguridad' },
-                    { label: 'Procedimiento', link: '/posicion-lateral-seguridad/procedimiento' },
-                    { label: 'Beneficios', link: '/posicion-lateral-seguridad/beneficios' }
-                ]
-            },
-            {
-                label: '10. Manejo de la PCR en Adultos',
-                collapsed: true,
-                items: [
-                    { label: 'Visión general', link: '/manejo-pcr-adultos' },
-                    { label: 'Procedimiento', link: '/manejo-pcr-adultos/procedimiento' },
-                    { label: 'Uso del DEA', link: '/manejo-pcr-adultos/uso-dea' },
-                    { label: 'Compresiones de calidad', link: '/manejo-pcr-adultos/compresiones' }
-                ]
-            },
+            { label: '8. Algoritmo Adultos', link: '/algoritmo-svb-adultos' },
+            { label: '9. Posición PLS', link: '/posicion-lateral-seguridad' },
+            { label: '10. Manejo PCR Adultos', link: '/manejo-pcr-adultos' },
             {
                 label: '11. SVB Pediátrico',
                 collapsed: true,
                 items: [
-                    { label: 'Diferencias con adultos', link: '/svb-pediatrico/diferencias-con-adultos' },
-                    { label: 'Algoritmo pediátrico', link: '/svb-pediatrico/algoritmo-pediatrico' },
-                    { label: 'Reconocimiento PCR', link: '/svb-pediatrico/reconocimiento-pcr' },
-                    { label: 'Técnicas específicas', link: '/svb-pediatrico/tecnicas-especificas' }
+                    { label: 'Diferencias', link: '/svb-pediatrico/diferencias-con-adultos' },
+                    { label: 'Algoritmo', link: '/svb-pediatrico/algoritmo-pediatrico' },
+                    { label: 'Reconocimiento', link: '/svb-pediatrico/reconocimiento-pcr' },
+                    { label: 'Técnicas', link: '/svb-pediatrico/tecnicas-especificas' }
                 ]
             },
             {
-                label: '12. SVB en Lactantes y Niños',
+                label: '12. SVB Lactantes',
                 collapsed: true,
                 items: [
                     { label: 'OVACE pediátrica', link: '/svb-lactantes-ninos/ovace-pediatrica' },
-                    { label: 'Técnicas de desobstrucción', link: '/svb-lactantes-ninos/tecnicas-desobstruccion' },
+                    { label: 'Desobstrucción', link: '/svb-lactantes-ninos/tecnicas-desobstruccion' },
                     { label: 'PCR pediátrica', link: '/svb-lactantes-ninos/pcr-pediatrica' }
                 ]
             },
-            {
-                label: '13. Desfibrilación Externa Automática',
-                collapsed: true,
-                items: [
-                    { label: 'Funcionamiento', link: '/desfibrilacion-externa-automatica/funcionamiento' },
-                    { label: 'Colocación de parches', link: '/desfibrilacion-externa-automatica/colocacion-parches' },
-                    { label: 'Energía recomendada', link: '/desfibrilacion-externa-automatica/energia-recomendada' }
-                ]
-            },
-            {
-                label: '14. Situaciones Especiales',
-                collapsed: true,
-                items: [
-                    { label: 'Atragantamiento', link: '/situaciones-especiales/atragantamiento' },
-                    { label: 'Casos específicos', link: '/situaciones-especiales/casos-especificos' }
-                ]
-            },
-            {
-                label: '15. Protocolos Legales y DEA',
-                collapsed: true,
-                items: [
-                    { label: 'Decreto 38/2017', link: '/protocolos-legales-dea/decreto-38-2017' },
-                    { label: 'Uso autorizado', link: '/protocolos-legales-dea/uso-autorizado' }
-                ]
-            },
-            {
-                label: '16. Conclusiones',
-                collapsed: true,
-                items: [
-                    { label: 'Formación continua', link: '/conclusiones/formacion-continua' },
-                    { label: 'Actuación temprana', link: '/conclusiones/actuacion-temprana' }
-                ]
-            },
-            {
-                label: '🎯 Evaluación y Práctica',
-                collapsed: true,
-                items: [
-                    { label: 'Trivial Interactivo', link: '/trivial' }
-                ]
-            },
+            { label: '13. Uso del DEA', link: '/desfibrilacion-externa-automatica/funcionamiento' },
+            { label: '14. Situaciones Especiales', link: '/situaciones-especiales/atragantamiento' },
+            { label: '15. Protocolos Legales', link: '/protocolos-legales-dea/decreto-38-2017' },
+            { label: '16. Conclusiones', link: '/conclusiones/formacion-continua' },
+            { label: '🎯 Trivial', link: '/trivial' },
             {
                 label: '📊 Algoritmos',
                 collapsed: true,

@@ -60,6 +60,7 @@ En situaciones donde no haya personal cualificado disponible, la Central de Coor
    - Programas formativos homologados
    - Instructores certificados
 
-::: warning IMPORTANTE
+:::caution[IMPORTANTE]
 El uso de un DEA por personal no autorizado, fuera de una situación de emergencia supervisada por el 061, puede constituir una infracción administrativa e incluso, en determinados casos, un delito de intrusismo profesional.
+:::
 :::

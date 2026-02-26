@@ -3,8 +3,8 @@ import { defineConfig } from 'vitepress'
 // Estructura de contenidos centralizada
 export const courseContent = [
   {
-    text: '1️⃣ Introducción al Soporte Vital Avanzado (SVA)',
-    collapsed: false,
+    text: '1. Introducción al Soporte Vital Avanzado (SVA)',
+    collapsed: true,
     items: [
       { text: 'Presentación', link: '/introduccion/presentacion' },
       { text: 'Soporte Vital', link: '/introduccion/soporte-vital' },
@@ -15,7 +15,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '2️⃣ Tipos de Unidades de Soporte Vital',
+    text: '2. Tipos de Unidades de Soporte Vital',
+    collapsed: true,
     items: [
       { text: 'SVA Medicalizado y SVA Enfermero', link: '/tipos-unidades-soporte-vital/sva-medicalizado-enfermero' },
       { text: 'Red de Transporte Sanitario Urgente', link: '/tipos-unidades-soporte-vital/red-transporte-sanitario' },
@@ -24,7 +25,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '3️⃣ Soporte Vital Básico (SVB)',
+    text: '3. Soporte Vital Básico (SVB)',
+    collapsed: true,
     items: [
       { text: 'Concepto de SVB', link: '/svb/concepto' },
       { text: 'RCP en dos niveles', link: '/svb/niveles' },
@@ -33,7 +35,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '4️⃣ Objetivos del Soporte Vital Básico',
+    text: '4. Objetivos del Soporte Vital Básico',
+    collapsed: true,
     items: [
       { text: 'Valoración de la víctima', link: '/objetivos/valoracion' },
       { text: 'Compresiones torácicas', link: '/objetivos/compresiones' },
@@ -43,7 +46,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '5️⃣ Parada Cardio-Respiratoria (PCR)',
+    text: '5. Parada Cardio-Respiratoria (PCR)',
+    collapsed: true,
     items: [
       { text: 'Definición y diagnóstico', link: '/pcr/definicion' },
       { text: 'Algoritmo PCR', link: '/pcr/algoritmo' },
@@ -51,7 +55,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '6️⃣ Reanimación Cardiopulmonar (RCP)',
+    text: '6. Reanimación Cardiopulmonar (RCP)',
+    collapsed: true,
     items: [
       { text: 'Introducción a la RCP', link: '/rcp/index' },
       { text: 'Estadísticas en España', link: '/rcp/estadisticas' },
@@ -60,7 +65,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '7️⃣ Cadena de Supervivencia',
+    text: '7. Cadena de Supervivencia',
+    collapsed: true,
     items: [
       { text: 'Visión General', link: '/cadena-supervivencia/' },
       { text: 'Eslabones de la cadena', link: '/cadena-supervivencia/eslabones' },
@@ -69,7 +75,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '8️⃣ Algoritmo SVB para Adultos',
+    text: '8. Algoritmo SVB para Adultos',
+    collapsed: true,
     items: [
       { text: 'Resumen del Algoritmo', link: '/algoritmo-svb-adultos/' },
       { text: 'Seguridad', link: '/algoritmo-svb-adultos/seguridad' },
@@ -78,7 +85,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '9️⃣ Posición Lateral de Seguridad',
+    text: '9. Posición Lateral de Seguridad',
+    collapsed: true,
     items: [
       { text: 'Visión general', link: '/posicion-lateral-seguridad/' },
       { text: 'Procedimiento', link: '/posicion-lateral-seguridad/procedimiento' },
@@ -86,7 +94,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '🔟 Manejo de la PCR en Adultos',
+    text: '10. Manejo de la PCR en Adultos',
+    collapsed: true,
     items: [
       { text: 'Visión general', link: '/manejo-pcr-adultos/' },
       { text: 'Procedimiento', link: '/manejo-pcr-adultos/procedimiento' },
@@ -95,7 +104,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '1️⃣1️⃣ SVB Pediátrico',
+    text: '11. SVB Pediátrico',
+    collapsed: true,
     items: [
       { text: 'Diferencias con adultos', link: '/svb-pediatrico/diferencias-con-adultos' },
       { text: 'Algoritmo pediátrico', link: '/svb-pediatrico/algoritmo-pediatrico' },
@@ -104,7 +114,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '1️⃣2️⃣ SVB en Lactantes y Niños',
+    text: '12. SVB en Lactantes y Niños',
+    collapsed: true,
     items: [
       { text: 'OVACE pediátrica', link: '/svb-lactantes-ninos/ovace-pediatrica' },
       { text: 'Técnicas de desobstrucción', link: '/svb-lactantes-ninos/tecnicas-desobstruccion' },
@@ -112,7 +123,8 @@ export const courseContent = [
     ]
   },
   {
-    text: '1️⃣3️⃣ Desfibrilación Externa Automática',
+    text: '13. Desfibrilación Externa Automática',
+    collapsed: true,
     items: [
       { text: 'Funcionamiento', link: '/desfibrilacion-externa-automatica/funcionamiento' },
       { text: 'Colocación de parches', link: '/desfibrilacion-externa-automatica/colocacion-parches' },
@@ -120,28 +132,39 @@ export const courseContent = [
     ]
   },
   {
-    text: '1️⃣4️⃣ Situaciones Especiales',
+    text: '14. Situaciones Especiales',
+    collapsed: true,
     items: [
       { text: 'Atragantamiento', link: '/situaciones-especiales/atragantamiento' },
       { text: 'Casos específicos', link: '/situaciones-especiales/casos-especificos' }
     ]
   },
   {
-    text: '1️⃣5️⃣ Protocolos Legales y DEA',
+    text: '15. Protocolos Legales y DEA',
+    collapsed: true,
     items: [
       { text: 'Decreto 38/2017', link: '/protocolos-legales-dea/decreto-38-2017' },
       { text: 'Uso autorizado', link: '/protocolos-legales-dea/uso-autorizado' }
     ]
   },
   {
-    text: '1️⃣6️⃣ Conclusiones',
+    text: '16. Conclusiones',
+    collapsed: true,
     items: [
       { text: 'Formación continua', link: '/conclusiones/formacion-continua' },
       { text: 'Actuación temprana', link: '/conclusiones/actuacion-temprana' }
     ]
   },
   {
+    text: '🎯 Evaluación y Práctica',
+    collapsed: true,
+    items: [
+      { text: 'Trivial Interactivo', link: '/trivial' }
+    ]
+  },
+  {
     text: '📊 Algoritmos',
+    collapsed: true,
     items: [
       {
         text: 'Algoritmos',
@@ -159,13 +182,13 @@ export const courseContent = [
 
 export default defineConfig({
   lang: 'es-ES',
-  title: 'Curso SVB y SVA',
+  title: 'Soporte Vital',
   description: 'Curso de Soporte Vital Básico y Avanzado',
   lastUpdated: false,
   appearance: false,
-  
+
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/logo-ambulance.svg' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -181,9 +204,11 @@ export default defineConfig({
   },
 
   themeConfig: {
+    logo: '/logo-ambulance.svg',
     nav: [
       { text: 'Inicio', link: '/' },
       { text: 'Guía', link: '/guia' },
+      { text: '🎯 Trivial', link: '/trivial' },
       {
         text: 'Recursos',
         items: [

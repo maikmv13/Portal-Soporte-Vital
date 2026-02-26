@@ -9,10 +9,11 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.75.1",
     "vitepress": "^1.0.0-rc.40"
   },
   "devDependencies": {
-    "typescript": "^5.3.3",
-    "@types/node": "^20.11.5"
+    "@types/node": "^20.11.5",
+    "typescript": "^5.3.3"
   }
 }

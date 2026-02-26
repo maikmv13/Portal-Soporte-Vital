@@ -1,18 +1,12 @@
 [build]
-  command = "npm run docs:build"
-  publish = "docs/.vitepress/dist"
+  command = "npm run build"
+  publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18"
-
-# Configuración de redirecciones y encabezados para una SPA
-[[redirects]]
-  from = "/*"
-  to = "/index.html"
-  status = 200
+  NODE_VERSION = "20"
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Frame-Options = "DENY"
-    X-XSS-Protection = "1; mode=block" 
+    X-XSS-Protection = "1; mode=block"

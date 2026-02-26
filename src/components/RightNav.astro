@@ -1,0 +1,45 @@
+---
+import type { Props } from '@astrojs/starlight/props';
+---
+
+<nav class="right-nav">
+  <a href="/introduccion/presentacion" class="nav-link">
+    <span>📖 Guía</span>
+  </a>
+</nav>
+
+<style>
+  .right-nav {
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+    border-left: 1px solid var(--sl-color-gray-5);
+    margin-left: 1rem;
+  }
+
+  .nav-link {
+    text-decoration: none;
+    color: var(--sl-color-gray-2);
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 99px;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    white-space: nowrap;
+  }
+
+  .nav-link:hover {
+    color: #10b981;
+    background: #f0fdf4;
+    transform: translateY(-1px);
+  }
+
+  @media (max-width: 50rem) {
+    .right-nav {
+      display: none;
+    }
+  }
+</style>

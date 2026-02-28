@@ -45,6 +45,11 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
       align-items: stretch !important;
       width: 100% !important;
     }
+    @media (max-width: 1024px) {
+      .bento-layout {
+        grid-template-columns: 1fr !important;
+      }
+    }
 
     /* Critical: prevent Starlight from forcing 100% width on grid children */
     .bento-layout > * {
@@ -60,6 +65,12 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
       gap: 1.25rem !important;
       width: auto !important;
       min-width: 0 !important;
+    }
+    @media (max-width: 640px) {
+      .bento-subgrid {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: auto !important;
+      }
     }
 
     /* Critical: prevent Starlight from forcing 100% width on subgrid children */
@@ -159,10 +170,7 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
       <div class="content-sections">
         <!-- Bento Grid Features -->
         <section class="bento-section">
-          <div
-            class="bento-layout"
-            style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; align-items: stretch; width: 100%;"
-          >
+          <div class="bento-layout">
             <!-- IZQUIERDA: Tarjeta destacada -->
             <div class="bento-card featured" style="min-width: 0;">
               <div class="card-glow"></div>
@@ -185,10 +193,7 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
               </div>
             </div>
             <!-- DERECHA: Grid 2x2 -->
-            <div
-              class="bento-subgrid"
-              style="display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: 1fr 1fr; gap: 1.25rem; min-width: 0;"
-            >
+            <div class="bento-subgrid">
               <div class="bento-card small" style="min-width: 0;">
                 <div class="card-content">
                   <span class="card-icon">🏥</span>
@@ -1236,16 +1241,107 @@ import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
   }
 
   @media (max-width: 640px) {
+    .hero-section {
+      padding: 6rem 5% 4rem;
+    }
+    .hero-main {
+      font-size: clamp(2rem, 8vw, 2.5rem);
+      line-height: 1.1;
+    }
+    .hero-top {
+      font-size: clamp(1.5rem, 5vw, 2rem);
+    }
+    .hero-tagline {
+      font-size: 1.1rem;
+    }
+    .hero-cpr-img {
+      border-width: 6px;
+      border-radius: 32px;
+    }
+    .floater-heart {
+      font-size: 2.5rem;
+      left: auto;
+      right: -10px;
+    }
+    .floater-ambulance {
+      font-size: 2.5rem;
+      right: auto;
+      left: -10px;
+    }
+    .floater-erc,
+    .floater-saving {
+      padding: 6px 12px;
+      font-size: 0.75rem;
+    }
+    .floater-erc {
+      right: -10px;
+    }
+    .floater-saving {
+      left: -10px;
+    }
+    .bento-card.featured {
+      padding: 1.5rem;
+    }
+    .bento-card.featured h4 {
+      font-size: 2rem;
+    }
+    .bento-card.featured p {
+      font-size: 1rem;
+    }
+    .card-icon-large {
+      font-size: 4rem;
+    }
+    .immersive-why {
+      padding: 4rem 5%;
+    }
+    .immersive-why h2 {
+      font-size: 2rem;
+    }
+    .why-text {
+      font-size: 1.1rem;
+    }
+    .stat-num {
+      font-size: 2.5rem;
+    }
+    .path-step {
+      flex-direction: column;
+      text-align: center;
+      gap: 1rem;
+    }
+    .step-card {
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem;
+    }
     .cta-banner {
       margin: 0;
       border-radius: 24px;
+      padding: 2.5rem 5%;
     }
     .cta-tags {
       gap: 0.5rem;
+      justify-content: center;
     }
     .cta-tag {
       font-size: 0.8rem;
       padding: 4px 12px;
+    }
+    .cta-inner {
+      text-align: center;
+    }
+    .cta-audience {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .cta-title {
+      font-size: 1.6rem;
+    }
+    .cta-desc {
+      font-size: 0.95rem;
+    }
+    .cta-step {
+      text-align: left;
     }
   }
 </style>

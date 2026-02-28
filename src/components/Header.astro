@@ -230,12 +230,46 @@ const isTrivial = url.pathname.includes("/trivial");
 
     @media (max-width: 64rem) {
         .header-search,
-        .nav-divider,
-        .nav-links {
-            display: none;
+        .nav-divider {
+            display: none !important;
         }
         .header-container {
-            padding: 0 1rem;
+            padding: 0 1rem !important;
+            gap: 0.5rem !important;
+        }
+        .logo-group {
+            gap: 0.5rem !important;
+        }
+        .logo-icon {
+            width: 40px !important;
+            height: 40px !important;
+            border-radius: 10px !important;
+        }
+        .logo-emoji {
+            font-size: 1.5rem !important;
+        }
+        .main-title {
+            font-size: 1.1rem !important;
+        }
+        .sub-title {
+            font-size: 0.55rem !important;
+        }
+        .nav-item span {
+            display: none !important;
+        }
+        .nav-item {
+            padding: 0.5rem !important;
+        }
+        .nav-icon {
+            margin: 0 !important;
+            font-size: 1.25rem !important;
+        }
+        .login-btn span {
+            display: none !important;
+        }
+        .login-btn {
+            padding: 0.6rem !important;
+            border-radius: 50% !important;
         }
     }
 </style>

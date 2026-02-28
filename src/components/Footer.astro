@@ -1,0 +1,256 @@
+---
+// Footer.astro — Portal Soporte Vital
+---
+
+<footer class="sv-footer">
+    <div class="footer-inner">
+        <!-- Brand Column -->
+        <div class="footer-brand">
+            <div class="footer-logo">
+                <span class="footer-logo-icon">🚑</span>
+                <span class="footer-logo-text">Soporte Vital</span>
+            </div>
+            <p class="footer-tagline">
+                Guía SVB y SVA 2025 basada en las últimas directrices del
+                Consejo Europeo de Resucitación.
+            </p>
+            <div class="footer-badges">
+                <span class="footer-badge">✓ ERC 2025</span>
+                <span class="footer-badge">✓ CERCP</span>
+            </div>
+        </div>
+
+        <!-- Navigation Links -->
+        <div class="footer-nav">
+            <h4 class="footer-nav-title">Contenido</h4>
+            <ul class="footer-nav-list">
+                <li>
+                    <a href="/introduccion/presentacion">Introducción SVA</a>
+                </li>
+                <li><a href="/svb/concepto">Soporte Vital Básico</a></li>
+                <li>
+                    <a href="/svb-pediatrico/diferencias-con-adultos"
+                        >SVB Pediátrico</a>
+                </li>
+                <li>
+                    <a href="/pcr/definicion">Parada Cardiorrespiratoria</a>
+                </li>
+                <li><a href="/rcp">Reanimación RCP</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-nav">
+            <h4 class="footer-nav-title">Recursos</h4>
+            <ul class="footer-nav-list">
+                <li>
+                    <a href="/recursos/algoritmos/svb-adultos"
+                        >📊 Algoritmo SVB Adultos</a>
+                </li>
+                <li>
+                    <a href="/recursos/algoritmos/svb-pediatrico"
+                        >📊 Algoritmo Pediátrico</a>
+                </li>
+                <li>
+                    <a href="/recursos/algoritmos/sva-adultos"
+                        >📊 Algoritmo SVA</a>
+                </li>
+                <li>
+                    <a href="/desfibrilacion-externa-automatica/funcionamiento"
+                        >⚡ Uso del DEA</a>
+                </li>
+                <li><a href="/trivial">🎯 Trivial SVA</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-nav">
+            <h4 class="footer-nav-title">Formación</h4>
+            <ul class="footer-nav-list">
+                <li>
+                    <a href="/cadena-supervivencia">Cadena de Supervivencia</a>
+                </li>
+                <li><a href="/algoritmo-svb-adultos">Algoritmo Adultos</a></li>
+                <li><a href="/manejo-pcr-adultos">Manejo PCR Adultos</a></li>
+                <li>
+                    <a href="/protocolos-legales-dea/decreto-38-2017"
+                        >Marco Legal DEA</a>
+                </li>
+                <li>
+                    <a href="/conclusiones/formacion-continua"
+                        >Formación Continua</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+            <p class="footer-copy">
+                © 2025 Portal Soporte Vital · Elaborado por <strong
+                    >Aurora Vizoso García</strong
+                > — Enfermera Asistencial FPUSG 061
+            </p>
+            <p class="footer-disclaimer">
+                🩺 Contenido educativo basado en guías ERC 2025. No sustituye la
+                formación presencial certificada.
+            </p>
+        </div>
+    </div>
+</footer>
+
+<style>
+    .sv-footer {
+        background: #f1f5f9;
+        color: #475569;
+        border-top: 1px solid #e2e8f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer-inner {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 3.5rem 5%;
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 3rem;
+        align-items: start;
+    }
+
+    /* Brand */
+    .footer-logo {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .footer-logo-icon {
+        font-size: 1.8rem;
+    }
+
+    .footer-logo-text {
+        font-size: 1.25rem;
+        font-weight: 900;
+        letter-spacing: -0.02em;
+        background: linear-gradient(90deg, #10b981, #06b6d4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .footer-tagline {
+        font-size: 0.88rem;
+        line-height: 1.7;
+        color: #64748b;
+        margin: 0 0 1.25rem 0;
+        max-width: 280px;
+    }
+
+    .footer-badges {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+
+    .footer-badge {
+        background: #ecfdf5;
+        color: #059669;
+        border: 1px solid #a7f3d0;
+        padding: 3px 11px;
+        border-radius: 99px;
+        font-size: 0.75rem;
+        font-weight: 700;
+        letter-spacing: 0.04em;
+    }
+
+    /* Nav columns */
+    .footer-nav-title {
+        font-size: 0.72rem;
+        font-weight: 800;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        color: #10b981;
+        margin: 0 0 1.1rem 0;
+    }
+
+    .footer-nav-list {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.55rem;
+    }
+
+    .footer-nav-list a {
+        color: #64748b;
+        text-decoration: none;
+        font-size: 0.88rem;
+        font-weight: 500;
+        transition: color 0.2s ease;
+        display: inline-block;
+    }
+
+    .footer-nav-list a:hover {
+        color: #0f172a;
+    }
+
+    /* Bottom bar */
+    .footer-bottom {
+        border-top: 1px solid #e2e8f0;
+        background: #f8fafc;
+    }
+
+    .footer-bottom-inner {
+        max-width: 1400px;
+        margin: 0 auto;
+        padding: 1.25rem 5%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+        flex-wrap: wrap;
+    }
+
+    .footer-copy {
+        font-size: 0.8rem;
+        color: #94a3b8;
+        margin: 0;
+    }
+
+    .footer-copy strong {
+        color: #64748b;
+    }
+
+    .footer-disclaimer {
+        font-size: 0.78rem;
+        color: #94a3b8;
+        margin: 0;
+        text-align: right;
+    }
+
+    /* Responsive */
+    @media (max-width: 1024px) {
+        .footer-inner {
+            grid-template-columns: 1fr 1fr;
+            gap: 2.5rem;
+        }
+        .footer-brand {
+            grid-column: 1 / -1;
+        }
+    }
+
+    @media (max-width: 640px) {
+        .footer-inner {
+            grid-template-columns: 1fr;
+            padding: 2.5rem 5%;
+        }
+        .footer-bottom-inner {
+            flex-direction: column;
+            text-align: center;
+        }
+        .footer-disclaimer {
+            text-align: center;
+        }
+    }
+</style>

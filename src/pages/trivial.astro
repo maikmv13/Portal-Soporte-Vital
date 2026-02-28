@@ -1,0 +1,163 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import TrivialGame from "../components/TrivialGame.vue";
+---
+
+<StarlightPage frontmatter={{ title: "Trivial SVA", template: "splash" }}>
+    <style is:global>
+        /* Override Starlight defaults for the Trivial page */
+        .main-frame {
+            padding-top: 0 !important;
+            padding-inline: 0 !important;
+        }
+        .sl-container {
+            max-width: none !important;
+            margin: 0 !important;
+        }
+        .content-panel {
+            padding: 0 !important;
+            border: none !important;
+        }
+        .sl-markdown-content {
+            max-width: none !important;
+        }
+        h1:not(.hero-title) {
+            display: none !important;
+        }
+        .main-content {
+            overflow: visible !important;
+        }
+        .page-content {
+            padding: 0 !important;
+        }
+        /* Hide Starlight pagination on trivial page */
+        .pagination-links {
+            display: none !important;
+        }
+        /* Neutralize Starlight button base styles inside game */
+        .tv-app button {
+            font-family: inherit !important;
+            font-size: inherit !important;
+            line-height: inherit !important;
+            background: none !important;
+            border: none !important;
+            padding: 0 !important;
+            margin: 0 !important;
+            color: inherit !important;
+            text-align: inherit !important;
+            cursor: pointer !important;
+        }
+        .tv-app a {
+            text-decoration: none !important;
+            color: inherit !important;
+        }
+        /* Now let the component styles re-apply with higher specificity */
+        .tv-app .tv-option {
+            border: 2px solid #e2e8f0 !important;
+            border-radius: 16px !important;
+            padding: 1rem 1.25rem !important;
+            background: #ffffff !important;
+        }
+        .tv-app
+            .tv-option:hover:not(:disabled):not(.tv-option--correct):not(
+                .tv-option--wrong
+            ):not(.tv-option--dim) {
+            border-color: #34d399 !important;
+        }
+        .tv-app .tv-option--correct {
+            border-color: #10b981 !important;
+            background: rgba(16, 185, 129, 0.06) !important;
+        }
+        .tv-app .tv-option--wrong {
+            border-color: #ef4444 !important;
+            background: rgba(239, 68, 68, 0.06) !important;
+        }
+        .tv-app .tv-option--dim {
+            opacity: 0.45 !important;
+        }
+        .tv-app .tv-mode-card {
+            border: 2px solid #e2e8f0 !important;
+            border-radius: 24px !important;
+            padding: 1.5rem 1rem !important;
+            background: #ffffff !important;
+        }
+        .tv-app .tv-mode-card--active {
+            border-color: #10b981 !important;
+            background: linear-gradient(
+                135deg,
+                rgba(16, 185, 129, 0.06) 0%,
+                rgba(6, 182, 212, 0.06) 100%
+            ) !important;
+        }
+        .tv-app .tv-tf__btn {
+            border: 2px solid #e2e8f0 !important;
+            border-radius: 24px !important;
+            padding: 1.25rem !important;
+            background: #ffffff !important;
+        }
+        .tv-app .tv-tf__btn--correct {
+            border-color: #10b981 !important;
+            background: rgba(16, 185, 129, 0.06) !important;
+        }
+        .tv-app .tv-tf__btn--wrong {
+            border-color: #ef4444 !important;
+            background: rgba(239, 68, 68, 0.06) !important;
+        }
+        .tv-app .hero-btn-primary,
+        .tv-app .tv-feedback__next,
+        .tv-app .tv-seq__submit {
+            background: linear-gradient(90deg, #10b981, #06b6d4) !important;
+            color: white !important;
+            border: none !important;
+            border-radius: 99px !important;
+            padding: 1.1rem 2rem !important;
+        }
+        .tv-app .tv-feedback__next,
+        .tv-app .tv-seq__submit {
+            border-radius: 16px !important;
+            padding: 0.9rem !important;
+        }
+        .tv-app .tv-btn--primary {
+            background: linear-gradient(90deg, #10b981, #06b6d4) !important;
+            color: white !important;
+            border: none !important;
+            padding: 0.9rem 2rem !important;
+            border-radius: 99px !important;
+        }
+        .tv-app .tv-btn--secondary {
+            background: #ffffff !important;
+            color: #0f172a !important;
+            border: 1.5px solid #e2e8f0 !important;
+            padding: 0.9rem 2rem !important;
+            border-radius: 99px !important;
+        }
+        .tv-app .tv-cat-chip {
+            border: 1.5px solid #e2e8f0 !important;
+            padding: 0.5rem 1rem !important;
+            border-radius: 99px !important;
+            background: #ffffff !important;
+        }
+        .tv-app .tv-cat-chip--selected {
+            background: #f0fdf4 !important;
+            border-color: #10b981 !important;
+            color: #059669 !important;
+        }
+        .tv-app .tv-categories__toggle {
+            background: none !important;
+            color: #10b981 !important;
+            padding: 4px 8px !important;
+        }
+        .tv-app .tv-seq__item {
+            border: 2px solid #e2e8f0 !important;
+            border-radius: 16px !important;
+            padding: 0.9rem 1.25rem !important;
+            background: #ffffff !important;
+        }
+    </style>
+
+    <div style="width: 100%; max-width: 100vw;">
+        <div class="sl-markdown-content">
+            <TrivialGame client:load />
+        </div>
+    </div>
+</StarlightPage>

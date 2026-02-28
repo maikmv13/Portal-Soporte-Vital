@@ -33,8 +33,8 @@ export default defineConfig({
             './src/styles/custom.css',
         ],
         components: {
-            SiteTitle: './src/components/SiteTitle.astro',
-            SocialIcons: './src/components/RightNav.astro',
+            Header: './src/components/Header.astro',
+            Footer: './src/components/Footer.astro',
         },
         sidebar: [
             {
